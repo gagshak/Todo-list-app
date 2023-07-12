@@ -1,4 +1,3 @@
-
 const express = require("express");
 const bodyParser = require("body-parser");
 const _ = require("lodash");
@@ -103,6 +102,7 @@ const item = new Item({
   }
 
 });
+
 
 app.post("/delete", function(req,res){
     const checkedItem = req.body.checkbox;
